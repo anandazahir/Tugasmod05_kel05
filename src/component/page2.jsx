@@ -6,7 +6,7 @@ const Page2 = () => {
   console.log(pokemonData);
   return (
     <div className="wrapper">
-      <h3 className="mb-4 text-white">List Pokemon | Page 1</h3>
+      <h3 className="mb-4 text-white">List Pokemon | Page 2</h3>
       <div className="card text-white bg-dark" style={{ width: "18rem" }}>
         <div className="card-header text-center">Pokemon Name</div>
         <ul>
