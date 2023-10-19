@@ -4,6 +4,7 @@ import { PokemonProvider } from "./component/pokemon";
 import Page1 from "./component/page1";
 import Page2 from "./component/page2";
 import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 
 const App = () => {
   return (
@@ -17,14 +18,14 @@ const App = () => {
           </Routes>
         </PokemonProvider>
       </div>
-      <div className="d-flex gap-4 justify-content-center mt-3">
-        <Link className="text-white text-center h6" to="/">
+      <nav className="nav justify-content-center">
+        <Link className="text-center nav-link h6" to="/">
           PAGE 1
         </Link>
-        <Link className="text-white text-center h6" to="/page-2">
+        <Link className="text-center nav-link h6" to="/page-2">
           PAGE 2
         </Link>
-      </div>
+      </nav>
     </Router>
   );
 };
